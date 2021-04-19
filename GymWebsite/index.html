@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prem fitness</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .background{
+       width: 100vw;
+        
+    }
+
+    .left{
+        display: inline-block;
+        line-height: 0px;
+
+        /* border: 2px solid red; */
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 4px auto;
+        /* border: 2px solid blue; */
+    }
+    .right{
+        display: inline-block;
+        /* border: 2px solid green; */
+        position: absolute;
+        right: 34px;
+        top: 0px;
+    }
+
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+        color: black;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 24px 12px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover , .navbar li a:active {
+        text-decoration: underline;
+        color: red;
+    }
+    .left img{
+        width: 83px;
+       
+    }
+    .btn{
+        margin: 0px 9px;
+        background: black;
+        color: wheat;
+        padding: 3px 4px;
+        border-radius: 10px ;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: violet;
+    }
+    .container{
+        border: 2px solid white;
+        margin: 2px 2px;
+        padding: 2px 2px;
+        width: 33%;
+        border-radius: 10px;
+    }
+
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 4px;
+        margin: 4px;
+
+    }
+
+    .container button{
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+<body>
+    <header class="header" >
+        <div class="left">
+           <img src="https://images.unsplash.com/photo-1553835973-dec43bfddbeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#"> Home </a> </li>
+                <li><a href="#">About us</a>  </li>
+                <li><a href="#">Contact us</a>  </li>
+                <li> <a href="#">Fitness </a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"> Call us</button>
+            
+            <button class="btn"> Email us</button>
+        </div>
+    </header>
+    <img class="background" src="" alt="">
+
+    <div class="container">
+       <h1 style="color: white;">Join the best gym in mumbai</h1>
+       <form action="">
+           <div class="form-group">
+               <input type="text" name="" id="" placeholder="Enter your name">
+           </div>
+           <div class="form-group">
+            <input type="text" name="" id="" placeholder="Enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="Contact number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="Email ID">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="Location">
+        </div>
+        <button class="btn">Submit</button>
+       </form>
+    </div>
+    
+</body>
+</html>
